@@ -1,11 +1,14 @@
 {
   "name": "eslint-plugin-ejs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parses out ejs declarations found in js files",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "reduxcli",
+    "redux-cli",
+    "ejs"
   ],
   "author": "Jack Moore",
   "main": "lib/index.js",
@@ -13,7 +16,9 @@
     "test": "mocha tests --recursive"
   },
   "devDependencies": {
-    "eslint": "~2.6.0"
+    "chai": "^3.5.0",
+    "eslint": "~2.6.0",
+    "mocha": "^2.4.5"
   },
   "engines": {
     "node": ">=0.10.0"
