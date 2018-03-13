@@ -1,6 +1,6 @@
 # eslint-plugin-starlims
 
-Parses out starlims declarations found in js and jsx files. Primarily designed for Redux CLI for parsing starlims syntax.
+Parses out starlims declarations found in js files. Primarily designed for Redux CLI for parsing starlims syntax.
 
 For example if you have a file like below, eslint will not be able to parse it normally due to the starlims markers. With this plugin, the linter is able to work normally. Note that whatever is inside the markers will remain.
 ```js
