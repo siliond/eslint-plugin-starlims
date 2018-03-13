@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-starlims",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Parses out starlims declarations found in js files",
     "keywords": [
         "eslint",
