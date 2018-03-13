@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-starlims",
+  "version": "0.0.1",
+  "description": "Parses out starlims declarations found in js files",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "reduxcli",
+    "redux-cli",
+    "starlims"
+  ],
+  "author": "Daniel Silion",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "~2.6.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "Apache"
+}
