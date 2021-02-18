@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-starlims",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Parses out starlims declarations found in js files",
     "keywords": [
         "eslint",
@@ -16,12 +16,12 @@
         "test": "mocha tests --recursive"
     },
     "devDependencies": {
-        "chai": "^3.5.0",
-        "eslint": "~2.6.0",
-        "mocha": "^2.4.5"
+        "chai": "^4.0.1",
+        "eslint": "~7.20.0",
+        "mocha": "^6.0.2"
     },
     "engines": {
-        "node": ">=0.10.0"
+        "node": "^10.12.0 || >=12.0.0"
     },
     "license": "MIT"
 }
